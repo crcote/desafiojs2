@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenando Javascript</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="first-section">
+            <h1>PONER Y SACAR BORDE</h1>
+            <img id="image1" onclick="borderVisibility()" src="./assets/imgs/Machupicchu.jpg" alt="imagenmachupicchu">
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1>Compra aquí tus stickers</h1>
+            <p> Sólo 10 stickers por diseño</p>
+            <div class="section-cards">
+                <div class="card">
+                <img class="image-stickers" src="./assets/imgs/bebiendo.png" alt="sticker de ...">
+                <input id="quantity1" type="number" min="0">
+                </div>
+                <div class="card">
+                <img class="image-stickers" src="./assets/imgs/entrenamiento-en-linea.png" alt=" sticker de...">
+                <input id="quantity2" type="number" min="0">
+                </div>
+                <div class="card">
+                <img class="image-stickers" src="./assets/imgs/jugar-con-la-mascota.png" alt="sticker de...">
+                <input id="quantity3" type="number" min="0">
+                </div>
+            </div>
+            <p id="totalText"></p>
+            <button onclick="totalQuantity()">Verificar</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container2">
+            <h1>Ingresa el password</h1>
+            <div class="selectors">
+                <select id="select1" name="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id="select2" name="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id="select3" name="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <button onclick="verifyPassword()">Ingresar</button>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    margin:0;
+    
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image1 {
+    width: 40%;
+    border-radius: 5%;
+
+}
+
+.container  {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+
+}
+
+input {
+    width: 150px;
+    height: 20px;
+
+}
+
+.image-stickers {
+    width: 70%;
+}
+
+button {
+    width:120px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    width: 100px;
+    margin-bottom: 5%;
+}
